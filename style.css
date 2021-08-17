@@ -1,73 +1,272 @@
 .night {
-    color:burlywood;
-    background-color:antiquewhite;
-   }
-  
-   body{
-       background-color:azure;
-   }
-   .box26 {
-    position: relative;
-    margin: 2em 0;
-    padding: 0.5em 1em;
-    border: solid 3px #95ccff;
-    border-radius: 8px;
+color:navy;
+font-size:45px;
 }
 
-li{
-  float: left;
+body{
+    background-color:azure;
+}
+.box26 {
+position: relative;
+margin: 2em 0;
+padding: 0.5em 1em;
+border: solid 3px #95ccff;
+border-radius: 8px;
+}
+
+.header-list li{
+float: left;
+padding:20px 30px 20px 30px;
+font-size:30px;
+}
+
+header-logo{
+padding:20px 40px 20px 30px;
 }
 
 .box26 .box-title {
-    position: absolute;
-    display: inline-block;
-    top: -13px;
-    left: 10px;
-    padding: 0 9px;
-    line-height: 1;
-    font-size: 19px;
-    background:azure;
-    color: rgb(126, 181, 245);
-    font-weight: bold;
+position: absolute;
+display: inline-block;
+top: -13px;
+left: 10px;
+padding: 0 9px;
+line-height: 1;
+font-size: 19px;
+background:azure;
+color: rgb(126, 181, 245);
+font-weight: bold;
 }
 
 .box27 {
-  position: relative;
-  margin: 2em 0;
-  padding: 0.5em 1em;
-  border: solid 3px #95ccff;
-  border-radius: 8px;
+position: relative;
+margin: 2em 0;
+padding: 0.5em 1em;
+border: solid 3px #95ccff;
+border-radius: 8px;
 }
 .box27 .box-title {
-  position: absolute;
-  display: inline-block;
-  top: -13px;
-  left: 10px;
-  padding: 0 9px;
-  line-height: 1;
-  font-size: 19px;
-  background: #FFF;
-  color: #95ccff;
-  font-weight: bold;
+position: absolute;
+display: inline-block;
+top: -13px;
+left: 10px;
+padding: 0 9px;
+line-height: 1;
+font-size: 19px;
+background:azure;
+color: #95ccff;
+font-weight: bold;
+}
+
+.box28 {
+position: relative;
+margin: 2em 0;
+padding: 0.5em 1em;
+border: solid 3px #95ccff;
+border-radius: 8px;
+}
+
+.box28 .box-title {
+position: absolute;
+display: inline-block;
+top: -13px;
+left: 10px;
+padding: 0 9px;
+line-height: 1;
+font-size: 19px;
+background:azure;
+color: #95ccff;
+font-weight: bold;
+}
+
+.box29 {
+position: relative;
+margin: 2em 0;
+padding: 0.5em 1em;
+border: solid 3px #95ccff;
+border-radius: 8px;
+}
+
+.box29 .box-title {
+position: absolute;
+display: inline-block;
+top: -13px;
+left: 10px;
+padding: 0 9px;
+line-height: 1;
+font-size: 19px;
+background:azure;
+color: #95ccff;
+font-weight: bold;
 }
 
 .example {
-    position: relative;
-    }
-  
-  .example h1{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-    margin:0;
-    padding:0;
-    
-    }
-  
-  .example img {
-    width: 100%;
-    }
- 
+position: relative;
+}
+
+.example h1{
+position: absolute;
+top: 50%;
+left: 50%;
+-ms-transform: translate(-50%,-50%);
+-webkit-transform: translate(-50%,-50%);
+transform: translate(-50%,-50%);
+margin:0;
+padding:0;
+
+}
+
+.example img {
+width: 100%;
+}
+
+.morning {
+position: relative;
+}
+
+.morning-contents{
+position: absolute;
+top: 25%;
+left: 25%;
+-ms-transform: translate(-25%,-25%);
+-webkit-transform: translate(-25%,-25%);
+transform: translate(-25%,-25%);
+margin:0;
+padding:0;
+color:white;
+}
+
+li{
+font-size:23px
+}
+
+span{
+color:red;
+font-size:30px;
+}
+
+.morning p{
+font-size:25px;
+}
+
+.morning img {
+width: 100%;
+}
+
+.evening{
+color:dodgerblue;
+font-family:fantasy;
+}
+
+.evening-contents{
+color:darkturquoise;
+font-family:fantasy;
+}
+
+.one{
+color:deepskyblue;
+font-family:fantasy;
+}
+
+.two{
+color:cadetblue
+}
+
+li {
+list-style:none;
+}
+
+.three p{
+font-size:30px;
+}
+
+.four p{
+font-size:30px;
+padding-left:995px;
+}
+
+.seven p{
+padding-left:870px;
+}
+
+h3{
+  font-size:32px;
+}
+
+.five p{
+font-size:30px;
+}
+
+.six p{
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input{
+width:  400px;
+margin-top: 10px;
+margin-bottom: 30px;
+padding: 20px;
+font-size: 18px;
+border: 1px solid #dee7ec ;
+}
+
+.contact-submit{
+background-color:#dee7ec;
+color:#889eab;
+}
+
+.logo1{
+border-bottom:1px dashed blue
+}
+
+.logo2{
+  border-bottom:1px dashed blue
+}
+
+a{
+  font-size:30px;
+}
+
+.header-list a{
+  text-decoration:none;
+  color:cornflowerblue;
+  padding-left:30px;
+  padding-top:45px;
+}
+
+.saaya{
+  width:400px;
+  height:350px;
+}
+
+.maaya{
+  width:300px;
+  height:300px;
+ float:right;
+}
+
+.junko{
+  width:300px;
+  height:300px;
+}
+
+.coo{
+  font-size:25px;
+}
+.coogar{
+  font-size:25px;
+}
+
+.seven{
+  font-size:25px;
+}
+
+.header-logo{
+  float:right;
+  padding-right:20px;
+  font-size:40px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.wyan{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
